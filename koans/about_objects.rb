@@ -21,7 +21,11 @@ class AboutObjects < Neo::Koan
 
   def test_every_object_has_an_id
     obj = Object.new
+<<<<<<< HEAD
     assert_equal Fixnum, obj.object_id.class
+=======
+    assert_equal Fixum, obj.object_id.class
+>>>>>>> Make test_every_object_has_an_id tests pass
   end
 
   def test_every_object_has_different_id
