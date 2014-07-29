@@ -16,6 +16,8 @@
 def triangle(a, b, c)
   if a == b && a == c
     :equilateral
+  elsif  a == b || a == c || b == c
+    :isosceles
   end
 end
 
